@@ -1,0 +1,13 @@
+<h1>Result</h1>
+
+<% if @result %>
+  <p> Result number : <%= @result.length %> </p>
+  <% @result.each do |movie|%>
+    <%= movie['title'] %> <br>
+    <%= movie['release_date'] %> <br>
+    <%= movie['director'] %> <br>
+    <%= image_tag movie['poster_path'] %> <hr>
+  <%end %>
+<% else %>
+  <p>no result found</p>
+<% end %>
