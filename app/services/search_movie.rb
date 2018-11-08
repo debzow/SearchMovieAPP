@@ -8,8 +8,8 @@ class SearchMovie
   end
 
   def search(movie)
+
     final_result = []
-    base_url = 
     result = Tmdb::Movie.find(movie)
     i = 0
     20.times do
