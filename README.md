@@ -1,24 +1,8 @@
-# README
+# Search Movie App - THP  
+Semaine 6, jeudi
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Auteurs
+David Gérard (@debzow) et Arthur Vouloir (@arthurvouloir)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Heroku
+Lien vers Heroku : https://best-search-movie-app.herokuapp.com/
